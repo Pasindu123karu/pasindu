@@ -50,7 +50,7 @@ const SkillsSection = () => {
       color: "primary",
       skills: [
         { name: "React Native", level: 82 },
-        { name: "Android (Java/Kotlin)", level: 70 }
+        { name: "Flutter", level: 80 }
       ]
     },
     {
