@@ -7,7 +7,7 @@ const Footer = () => {
   const socialLinks = [
     { icon: Github, href: "https://github.com/Pasindu123karu", label: "GitHub" },
     { icon: Linkedin, href: "https://www.linkedin.com/in/pasindu-karunarathna-7732b5315/", label: "LinkedIn" },
-    { icon: Instagram, href: "https://twitter.com/pasindu", label: "Instagram" },
+    { icon: Instagram, href: "https://www.instagram.com/ruvinath_k/", label: "Instagram" },
     { icon: Mail, href: "mailto:pasindukarunarathna59@gmail.com", label: "Email" }
   ];
 
