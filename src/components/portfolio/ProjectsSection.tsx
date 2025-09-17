@@ -78,7 +78,7 @@ const ProjectsSection = () => {
           image: drink,
           tech: ["Figma", "UI/UX Design", "Prototyping", "Design Theories"],
           liveUrl: "https://www.figma.com/proto/MBfEVME5qJJcoDZmncJ9wA/new-drink?node-id=0-1&t=S6d6vToq3xlSiKl9-1",
-          codeUrl: "#",
+          codeUrl: "https://drive.google.com/drive/folders/1n4yqkWxFMapRrcKYDgzH_kvU8JN7kVSJ?usp=sharing",
 
         },
         {
@@ -88,7 +88,7 @@ const ProjectsSection = () => {
           image: dashboard,
           tech: ["Figma", "UI/UX Design", "Prototyping", "Design Theories"],
           liveUrl: "https://www.figma.com/design/lYt1D5ESKdRbz40892UXYk/Zyner-%7C-Design-Bootcamp-V1?node-id=0-1&t=PynKz1AaaT1F1E6o-1",
-          codeUrl: "#",
+          codeUrl: "https://drive.google.com/drive/folders/1n4yqkWxFMapRrcKYDgzH_kvU8JN7kVSJ?usp=sharing",
 
         },
       ],
