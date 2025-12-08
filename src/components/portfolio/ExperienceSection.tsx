@@ -60,7 +60,7 @@ const ExperienceSection = () => {
     "Final-year project: AI-powered sign language learning app",
     "Active participation in academic and project-based research"
   ],
-}
+},
     {
       degree: "Advanced Diploma in Advertising & Multimedia",
       institution: "National Institute of Business Management (NIBM)",
