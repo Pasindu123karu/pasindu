@@ -49,18 +49,18 @@ const ExperienceSection = () => {
   ];
 
   const education = [
-    {
-      degree: "BSc (Hons) Software Engineering",
-      institution:
-        "Cardiff Metropolitan University (Affiliated with ICBT Campus)",
-      location: "Colombo, Sri Lanka",
-      period: "2022 – 2025 (Completed, awaiting results)",
-      gpa: "",
-      achievements: [
-        "Final-year project: AI-powered sign language learning app",
-        "Active participation in academic and project-based research",
-      ],
-    },
+  {
+  degree: "BSc (Hons) Software Engineering",
+  institution: "Cardiff Metropolitan University",
+  location: "Colombo, Sri Lanka",
+  period: "2022 – 2025",
+  class: "2ⁿᵈ Upper",
+  achievements: [
+    "Graduated with 2ⁿᵈ Upper Class Honours",
+    "Final-year project: AI-powered sign language learning app",
+    "Active participation in academic and project-based research"
+  ],
+}
     {
       degree: "Advanced Diploma in Advertising & Multimedia",
       institution: "National Institute of Business Management (NIBM)",
