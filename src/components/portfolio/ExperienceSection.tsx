@@ -5,6 +5,23 @@ import { Calendar, MapPin, Building, GraduationCap, Award } from "lucide-react";
 const ExperienceSection = () => {
   const experiences = [
     {
+  type: "work",
+  title: "Trainee QA Engineer",
+  company: "Fidenz Technologies",
+  location: "Colombo, Sri Lanka",
+  period: "2025 – Present",
+  description:
+    "Execute manual test cases for web and mobile applications, identify defects, and collaborate with cross-functional teams under Agile workflows. Provide feedback on UI/UX and ensure product quality.",
+  achievements: [
+    "Performed functional, regression, and system testing across multiple applications",
+    "Identified, documented, and verified defects using issue-tracking tools",
+    "Assisted in API testing and monitoring backend integrations",
+    "Participated in Agile sprints, contributing to test planning and daily stand-ups",
+    "Maintained structured test documentation and reports"
+  ],
+  tech: ["Jira", "Selenium", "JMeter", "Postman"]
+},
+    {
       type: "work",
       title: "Intern Software Developer",
       company: "Mobitel (Pvt) Ltd",
