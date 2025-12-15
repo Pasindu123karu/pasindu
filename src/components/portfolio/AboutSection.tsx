@@ -1,7 +1,7 @@
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Code2, Smartphone, Palette, Brain } from "lucide-react";
-import profileImage from "@/assets/pasindu-profile.jpeg";
+import profileImage from "@/assets/pasindu.png";
 
 const AboutSection = () => {
   const skills = [
