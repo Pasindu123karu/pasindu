@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowDown, Code, Palette } from "lucide-react";
-import profileImage from "@/assets/pasindu-profile.jpeg";
+import profileImage from "@/assets/pasindu.png";
 
 const HeroSection = () => {
   return (
