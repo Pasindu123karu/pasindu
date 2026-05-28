@@ -4,23 +4,65 @@ import { Calendar, MapPin, Building, GraduationCap, Award } from "lucide-react";
 
 const ExperienceSection = () => {
   const experiences = [
-    {
-  type: "work",
-  title: "Trainee QA Engineer",
-  company: "Fidenz Technologies",
-  location: "Colombo, Sri Lanka",
-  period: "2025 – Present",
-  description:
-    "Execute manual test cases for web and mobile applications, identify defects, and collaborate with cross-functional teams under Agile workflows. Provide feedback on UI/UX and ensure product quality.",
-  achievements: [
-    "Performed functional, regression, and system testing across multiple applications",
-    "Identified, documented, and verified defects using issue-tracking tools",
-    "Assisted in API testing and monitoring backend integrations",
-    "Participated in Agile sprints, contributing to test planning and daily stand-ups",
-    "Maintained structured test documentation and reports"
-  ],
-  tech: ["Jira", "Selenium", "JMeter", "Postman"]
-},
+   {
+    type: "work",
+    title: "Associate QA Engineer",
+    company: "Fidenz Technologies",
+    location: "Colombo, Sri Lanka",
+    period: "2025 – Present",
+    promotionFrom: "Trainee QA Engineer",
+    description:
+      "Promoted from Trainee QA Engineer to Associate QA Engineer based on contributions to automation testing, QA process improvements, and cross-functional collaboration.",
+    achievements: [
+      "Designed and maintained end-to-end automation frameworks using Playwright",
+      "Implemented scalable Page Object Model (POM) architecture",
+      "Developed mobile automation scripts using Appium for Android and iOS applications",
+      "Performed API testing and backend integration validation using Postman",
+      "Conducted performance testing using JMeter",
+      "Improved automation stability by debugging failed test cases",
+      "Managed defects and collaborated with Agile teams using Jira",
+      "Participated in scrum ceremonies, client meetings, and product demos",
+      "Led internal sessions on Appium automation and QA best practices",
+      "Utilized AI-assisted QA workflows for test generation and debugging support"
+    ],
+    tech: [
+      "Playwright",
+      "Appium",
+      "Postman",
+      "JMeter",
+      "Jira",
+      "JavaScript",
+      "Node.js",
+      "CI/CD",
+      "Bitbucket"
+    ]
+  },
+
+  {
+    type: "work",
+    title: "Trainee QA Engineer",
+    company: "Fidenz Technologies",
+    location: "Colombo, Sri Lanka",
+    period: "2025",
+    description:
+      "Executed manual and automation testing activities for web and mobile applications while collaborating with Agile teams to ensure product quality.",
+    achievements: [
+      "Performed functional, regression, and system testing",
+      "Identified, documented, and verified software defects",
+      "Assisted with API testing and backend validation",
+      "Collaborated with developers and QA team members during Agile sprints",
+      "Maintained structured test cases and QA documentation",
+      "Contributed to early-stage Playwright and Appium automation initiatives"
+    ],
+    tech: [
+      "Jira",
+      "Postman",
+      "Playwright",
+      "Appium",
+      "JMeter",
+      "Selenium"
+    ]
+  },
     {
       type: "work",
       title: "Intern Software Developer",
