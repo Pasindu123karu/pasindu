@@ -33,10 +33,7 @@ const HeroSection = () => {
           </div>
 
           <p className="text-xl text-muted-foreground max-w-2xl">
-            Passionate QA Automation Engineer focused on delivering high-quality web and mobile applications through scalable automation, API testing, and performance validation. 
-Experienced in building reliable testing frameworks while also contributing to UI/UX quality and seamless user experiences across modern digital products.
-          </p>
-
+            Passionate QA Automation Engineer focused on building reliable test automation while ensuring seamless UI/UX experiences across web and mobile applications.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
             <Button 
               size="lg" 
