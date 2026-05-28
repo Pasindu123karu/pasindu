@@ -33,9 +33,8 @@ const HeroSection = () => {
           </div>
 
           <p className="text-xl text-muted-foreground max-w-2xl">
-            Crafting innovative digital experiences through code and design. 
-            Passionate about creating seamless user interfaces and scalable applications 
-            that make a difference.
+            Passionate QA Automation Engineer focused on delivering high-quality web and mobile applications through scalable automation, API testing, and performance validation. 
+Experienced in building reliable testing frameworks while also contributing to UI/UX quality and seamless user experiences across modern digital products.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
@@ -58,7 +57,16 @@ const HeroSection = () => {
 
           {/* Tech stack preview */}
           <div className="flex flex-wrap gap-3 justify-center lg:justify-start pt-4">
-            {['React', 'React Native', 'Flutter', 'Java', 'Spring Boot'].map((tech) => (
+            {['Playwright',
+    'Appium',
+    'Postman',
+    'JMeter',
+    'JavaScript',
+    'Manual Testing',
+    'React',
+    'React Native',
+    'Flutter',
+    'Python'].map((tech) => (
               <span key={tech} className="tech-badge">
                 {tech}
               </span>
