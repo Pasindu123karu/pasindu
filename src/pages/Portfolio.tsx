@@ -18,7 +18,6 @@ const Portfolio = () => {
         </div>
         <AboutSection />
         <ProjectsSection />
-        //<SkillsSection />
         <ExperienceSection />
         <ContactSection />
       </main>
