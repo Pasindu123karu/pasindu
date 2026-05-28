@@ -18,7 +18,7 @@ const Portfolio = () => {
         </div>
         <AboutSection />
         <ProjectsSection />
-        <SkillsSection />
+        //<SkillsSection />
         <ExperienceSection />
         <ContactSection />
       </main>
