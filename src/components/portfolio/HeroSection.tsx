@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowDown, Code, Palette } from "lucide-react";
-import profileImage from "@/assets/pasindu.png";
+import profileImage from "@/assets/new.png";
 
 const HeroSection = () => {
   return (
@@ -22,7 +22,7 @@ const HeroSection = () => {
             <div className="flex flex-col lg:flex-row lg:items-center gap-4 text-2xl lg:text-3xl font-semibold text-foreground">
               <span className="flex items-center gap-2">
                 <Code className="h-8 w-8 text-primary" />
-                Software Engineer
+                QA Automation Engineer
               </span>
               <span className="hidden lg:block text-muted-foreground">&</span>
               <span className="flex items-center gap-2">
