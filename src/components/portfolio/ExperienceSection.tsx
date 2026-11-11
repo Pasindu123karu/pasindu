@@ -5,11 +5,41 @@ import { Calendar, MapPin, Building, GraduationCap, Award } from "lucide-react";
 const ExperienceSection = () => {
   const experiences = [
    {
+  type: "work",
+  title: "Associate QA Engineer",
+  company: "Peercore Nexgen (Pvt) Ltd",
+  location: "Sri Lanka",
+  period: "June 2026 – Present",
+  description:
+    "Working as an Associate QA Engineer, responsible for ensuring software quality through manual and automation testing. Collaborating with developers and cross-functional teams to identify defects, validate functionality, and improve overall product quality.",
+  achievements: [
+    "Designed and maintained automated end-to-end test scripts",
+    "Performed functional, regression, and system testing",
+    "Developed automated test scenarios for webhook validation",
+    "Conducted Stripe payment gateway testing, including payment flows and integration validation",
+    "Performed API testing and backend integration validation",
+    "Identified, documented, and tracked software defects",
+    "Worked closely with developers to investigate, troubleshoot, and resolve reported defects",
+    "Maintained structured test cases and QA documentation",
+    "Contributed to improving automation stability and QA processes"
+  ],
+  tech: [
+    "Playwright",
+    "JavaScript",
+    "Postman",
+    "Stripe",
+    "Webhook Testing",
+    "API Testing",
+    "Jira",
+    "Automation Testing"
+  ]
+},
+    {
     type: "work",
     title: "Associate QA Engineer",
     company: "Fidenz Technologies",
     location: "Colombo, Sri Lanka",
-    period: "2025 – Present",
+    period: "2025 – June 2026",
     promotionFrom: "Trainee QA Engineer",
     description:
       "Promoted from Trainee QA Engineer to Associate QA Engineer based on contributions to automation testing, QA process improvements, and cross-functional collaboration.",
