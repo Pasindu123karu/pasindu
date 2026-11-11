@@ -10,13 +10,52 @@ import foodApp from "@/assets/foodApp.png";
 import food from "@/assets/food.jpg";
 import dashboard from "@/assets/dashboard.png";
 import drink from "@/assets/drink.png";
-
-
-
+import dashboard from "@/assets/jira_xml.png";
+import appium from "@/assets/appium_test_runner.png";
 
 
 const ProjectsSection = () => {
   const projects = [
+{
+  category: "QA Productivity Tools",
+  icon: Monitor,
+  projects: [
+    {
+      title: "AI-Powered Jira Bug Insights Dashboard",
+      description:
+        "Developed an AI-powered dashboard that transforms large Jira bug exports (XML/Excel) into structured, interactive visual insights. Supports analysis of 200+ bugs with real-time filtering, helping QA teams identify bug trends, priorities, and statuses while reducing manual reporting effort.",
+      image: dashboard,
+      tech: [
+        "AI Tools",
+        "JavaScript",
+        "XML Processing",
+        "Excel Processing",
+        "Data Visualization",
+        "Jira"
+      ],
+      liveUrl: "https://xml-spark.lovable.app/",
+      codeUrl: "#",
+    },
+    {
+      title: "Appium Test Runner",
+      description:
+        "Built a Playwright-style visual test runner for Appium and WebdriverIO, providing an intuitive interface for mobile test execution and debugging. Features include nested test tree navigation, suite/describe/test-level execution, real-time Appium command tracking, live step monitoring, accumulated test results, execution history, and automatic HTML report generation.",
+      image: appium,
+      tech: [
+        "Node.js",
+        "Appium",
+        "WebdriverIO",
+        "JavaScript",
+        "Server-Sent Events (SSE)",
+        "HTTP Module",
+        "Real Device Testing"
+      ],
+      liveUrl: "#",
+      codeUrl: "https://github.com/Pasindu123karu/appium-ui-runner.git",
+    },
+  ],
+},
+
     {
       category: "Web Development",
       icon: Monitor,
