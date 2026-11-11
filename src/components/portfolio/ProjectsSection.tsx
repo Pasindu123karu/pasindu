@@ -10,7 +10,7 @@ import foodApp from "@/assets/foodApp.png";
 import food from "@/assets/food.jpg";
 import dashboard from "@/assets/dashboard.png";
 import drink from "@/assets/drink.png";
-import dashboard from "@/assets/jira_xml.png";
+import jiraDashboard from "@/assets/jira_xml.png";
 import appium from "@/assets/appium_test_runner.png";
 
 
@@ -24,7 +24,7 @@ const ProjectsSection = () => {
       title: "AI-Powered Jira Bug Insights Dashboard",
       description:
         "Developed an AI-powered dashboard that transforms large Jira bug exports (XML/Excel) into structured, interactive visual insights. Supports analysis of 200+ bugs with real-time filtering, helping QA teams identify bug trends, priorities, and statuses while reducing manual reporting effort.",
-      image: dashboard,
+      image: jiraDashboard,
       tech: [
         "AI Tools",
         "JavaScript",
