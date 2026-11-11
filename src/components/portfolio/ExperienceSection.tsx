@@ -8,7 +8,7 @@ const ExperienceSection = () => {
   type: "work",
   title: "Associate QA Engineer",
   company: "Peercore Nexgen (Pvt) Ltd",
-  location: "Sri Lanka",
+  location: "Australia",
   period: "June 2026 – Present",
   description:
     "Working as an Associate QA Engineer, responsible for ensuring software quality through manual and automation testing. Collaborating with developers and cross-functional teams to identify defects, validate functionality, and improve overall product quality.",
