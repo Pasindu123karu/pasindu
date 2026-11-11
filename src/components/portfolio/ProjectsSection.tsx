@@ -1,7 +1,7 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { ExternalLink, Github, Monitor, Smartphone, Palette } from "lucide-react";
+import { ExternalLink, Github, Monitor, Smartphone, Palette, Sparkles } from "lucide-react";
 import smartSign from "@/assets/smartSign.png";
 import travelWeb from "@/assets/travelWeb.png";
 import foodWeb from "@/assets/foodWeb.png";
@@ -18,7 +18,7 @@ const ProjectsSection = () => {
   const projects = [
 {
   category: "QA Productivity Tools",
-  icon: Monitor,
+  icon: Sparkles,
   projects: [
     {
       title: "AI-Powered Jira Bug Insights Dashboard",
